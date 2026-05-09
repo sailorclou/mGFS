@@ -1,0 +1,6 @@
+# mGFS ChunkServer node list
+# Format: host:port  server_id
+127.0.0.1:9091  cs1
+127.0.0.1:9092  cs2
+127.0.0.1:9093  cs3
+127.0.0.1:9094  cs4

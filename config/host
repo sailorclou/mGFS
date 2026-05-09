@@ -1,0 +1,5 @@
+127.0.0.0   master
+127.0.0.1   chunkserver1
+127.0.0.2   chunkserver1
+127.0.0.3   chunkserver1
+127.0.0.4   chunkserver1

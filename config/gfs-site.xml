@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property>
+        <name>gfs.master.host</name>
+        <value>127.0.0.1</value>
+    </property>
+    <property>
+        <name>gfs.master.port</name>
+        <value>9090</value>
+    </property>
+    <property>
+        <name>gfs.chunk.size</name>
+        <value>67108864</value>
+    </property>
+    <property>
+        <name>gfs.replication</name>
+        <value>3</value>
+    </property>
+    <property>
+        <name>gfs.lease.duration</name>
+        <value>60</value>
+    </property>
+    <property>
+        <name>gfs.heartbeat.interval</name>
+        <value>5</value>
+    </property>
+    <property>
+        <name>gfs.data.dir</name>
+        <value>./data</value>
+    </property>
+</configuration>
