@@ -15,7 +15,8 @@ env/
 *.fls
 *.fdb_latexmk
 *.synctex.gz
-*.pdf
+# *.pdf
+*.tex
 
 # Data
 data/
