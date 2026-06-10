@@ -1,6 +1,6 @@
 # Python
 __pycache__/
-*.py[cod]
+# *.py[cod]
 *.pyo
 *.pyd
 .venv/
@@ -15,7 +15,7 @@ env/
 *.fls
 *.fdb_latexmk
 *.synctex.gz
-*.pdf
+*.tex
 
 # Data
 data/
