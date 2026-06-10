@@ -7,13 +7,13 @@ import os
 import time
 import threading
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'server'))
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'client'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../server'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../client'))
 
 import thriftpy2
 from thriftpy2.rpc import make_server, make_client
 
-_thrift_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'config', 'gfs.thrift'))
+_thrift_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../config', 'gfs.thrift'))
 gfs_thrift = thriftpy2.load(_thrift_path, module_name='gfs_thrift')
 
 from gfsAPI import MasterHandler, ChunkHandler
